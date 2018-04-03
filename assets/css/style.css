@@ -10,12 +10,22 @@ body {
   margin: 0;
 }
 
+
 header {
   display: flex;
   flex-direction: row;
   background-color: white;
-  border-bottom: 5px;
+  border-bottom-width: 20px;
   border-color: #216393;
+  justify-content: center;
+}
+
+#logo {
+  background-image: url(../images/kedu-logo.png);
+  width: 200px;
+  height: 74px;
+  background-size: 100% 100%;
+  margin: 0px 30px;
 
 }
 
@@ -44,14 +54,21 @@ nav li a:hover {
 
 }
 
+nav {
+  margin: 0px 30px;
+}
 
+#search-bar {
+  margin: 22px 30px;
+  display: flex;
+}
 
 #profile-pic {
   background-image: url(../images/profile-pic.png);
   height: 50px;
   width: 50px;
   background-size: 100% 100%;
-  margin: 10px;
+  margin: 10px 30px;
 }
 
 #content {
@@ -62,12 +79,14 @@ section {
   display: flex;
   flex: 2;
   flex-direction: column;
+  justify-content: center;
 }
 
 #sidebar {
   display: flex;
   flex: 1;
   flex-direction: column;
+  justify-content: center;
 }
 
 article {
