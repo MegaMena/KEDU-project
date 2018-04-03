@@ -14,28 +14,44 @@ header {
   display: flex;
   flex-direction: row;
   background-color: white;
+  border-bottom: 5px;
+  border-color: #216393;
+
 }
 
 ul {
   display: flex;
   flex-direction: row;
+  margin: 0px;
 }
 
 li {
   display: block;
-  padding: 5px 14px;
-  border-bottom: #216393;
 }
-
-
-
 a {
   text-decoration: none;
   color: #216393;
 }
 
-li:hover {
-    background-color: : #216393;
+nav li a {
+    display: block;
+    text-align: center;
+    padding: 22px;
+}
+nav li a:hover {
+  color: white;
+  background-color: #216393;
+
+}
+
+
+
+#profile-pic {
+  background-image: url(../images/profile-pic.png);
+  height: 50px;
+  width: 50px;
+  background-size: 100% 100%;
+  margin: 10px;
 }
 
 #content {
@@ -45,19 +61,49 @@ li:hover {
 section {
   display: flex;
   flex: 2;
+  flex-direction: column;
 }
 
 #sidebar {
   display: flex;
   flex: 1;
+  flex-direction: column;
+}
+
+article {
+  display: flex;
+  width: 90%;
+  background-color: white;
+  color:  black
+}
+
+.title {
+    background-color: #216393;
+    color: white;
+    display: flex;
+    width: 90%;
+    max-height: 30px;
+    height: auto;
+    margin-top: 20px;
 }
 
 h1 {
   font-family: 'Cabin Sketch', cursive;
   font-weight: bold;
   display: block;
-  background-color: #216393;
-  color: white;
+  margin: 0px;
+}
+
+h2 {
+  margin: 0px;
+}
+
+h3 {
+  margin: 0px;
+}
+
+p {
+  margin: 5px;
 }
 
 footer {
@@ -65,4 +111,31 @@ footer {
   height: 10vh;
   background-color: #216393;
   color: white;
+  position: absolute;
+  bottom: 0px;
+}
+
+#year {
+  height: 50px;
+  width: 50px;
+  display: flex;
+  float: left;
+}
+
+#powered-by {
+    float: right;
+    display: flex;
+    flex-direction: column;
+    max-height: 80px;
+    height: auto;
+
+}
+
+#logo-white {
+  background-image: url(../images/logo-white.png);
+  display: flex;
+  width: 100px;
+  height: 31px;
+
+  background-size: 100% 100%;
 }
