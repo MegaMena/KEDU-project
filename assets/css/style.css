@@ -15,7 +15,7 @@ header {
   display: flex;
   flex-direction: row;
   background-color: white;
-  border-bottom-width: 20px;
+  border-bottom: solid 8px;
   border-color: #216393;
   justify-content: center;
 }
@@ -69,17 +69,33 @@ nav {
   width: 50px;
   background-size: 100% 100%;
   margin: 10px 30px;
+  display: flex;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    z-index: 1;
+}
+
+#profile-pic:hover .dropdown-content {
+    display: flex;
+    flex-direction: column;
 }
 
 #content {
   display: flex;
+  flex direction: column;
+  justify-content: center;
 }
 
 section {
   display: flex;
   flex: 2;
   flex-direction: column;
-  justify-content: center;
+
 }
 
 #sidebar {
@@ -87,6 +103,14 @@ section {
   flex: 1;
   flex-direction: column;
   justify-content: center;
+
+}
+
+#kubo {
+  background-image: url(../images/3d-kubo-robot.png);
+  background-size: 100% 100%;
+  height: 300px;
+  width: 50px;
 }
 
 article {
@@ -103,7 +127,19 @@ article {
     width: 90%;
     max-height: 30px;
     height: auto;
-    margin-top: 20px;
+    margin: 20px auto 0px auto;
+}
+
+.subject {
+    background-color: #ffffff;
+    color: black;
+    display: flex;
+    width: 90%;
+    max-height: 50px;
+    height: 100%;
+    margin: 0px auto 0px auto;
+    border-bottom: solid 0.2px;
+    border-color: #f1f1f2;
 }
 
 h1 {
@@ -121,6 +157,11 @@ h3 {
   margin: 0px;
 }
 
+h4 {
+  margin: 10px 5px;
+  font-weight: 300;
+}
+
 p {
   margin: 5px;
 }
@@ -130,8 +171,7 @@ footer {
   height: 10vh;
   background-color: #216393;
   color: white;
-  position: absolute;
-  bottom: 0px;
+  margin-top: 10px;
 }
 
 #year {
