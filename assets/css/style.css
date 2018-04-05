@@ -103,7 +103,7 @@ section {
   display: flex;
   flex: 1;
   flex-direction: column;
-  justify-content: center;
+  margin: 20px auto 10px auto;
 
 }
 
@@ -212,11 +212,12 @@ article {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 #comment-felt {
   display: flex;
-  height: 40px;
+  max-height: 40px;
   flex: 1;
 }
 
