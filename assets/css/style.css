@@ -92,9 +92,9 @@ nav {
   justify-content: center;
 }
 
-#content > a {
+a {
 
-  justify-content: center;
+  align-self: center;
 }
 
 
