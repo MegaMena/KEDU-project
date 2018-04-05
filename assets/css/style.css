@@ -159,16 +159,17 @@ article {
   background-color: #216393;
   color: white;
   display: flex;
-  width: 300px;
+  justify-content: center;
   height: 40px;
-  margin: 20px 2px;
+  margin: 20px 10px;
+  width: 290px;
 }
 
 .lesson {
   display: flex;
-  width: 300px;
-  height: 200px;
-  margin: 0px 2px;
+  width: 290px;
+  height: 197px;
+  margin: 0px 10px 2px 10px;
 }
 #lesson-1 {
     background-image: url(../images/kedu-lesson-1.jpg);
@@ -180,6 +181,30 @@ article {
 }
 #lesson-3 {
     background-image: url(../images/kedu-lesson-3.jpg);
+    background-size: 100% 100%;
+}
+#lesson-4 {
+    background-image: url(../images/kedu-lesson-4.jpg);
+    background-size: 100% 100%;
+}
+#lesson-5 {
+    background-image: url(../images/kedu-lesson-5.jpg);
+    background-size: 100% 100%;
+}
+#lesson-6 {
+    background-image: url(../images/kedu-lesson-6.jpg);
+    background-size: 100% 100%;
+}
+#lesson-7 {
+    background-image: url(../images/kedu-lesson-7.jpg);
+    background-size: 100% 100%;
+}
+#lesson-8 {
+    background-image: url(../images/kedu-lesson-8.jpg);
+    background-size: 100% 100%;
+}
+#lesson-9 {
+    background-image: url(../images/kedu-lesson-9.jpg);
     background-size: 100% 100%;
 }
 
