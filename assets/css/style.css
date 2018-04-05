@@ -11,7 +11,6 @@ body {
   margin: 0;
 }
 
-
 header {
   display: flex;
   flex-direction: row;
@@ -110,9 +109,7 @@ section {
   flex: 1;
   flex-direction: column;
   margin: 20px auto 10px auto;
-
 }
-
 
 article {
   display: flex;
@@ -121,6 +118,11 @@ article {
   color:  black;
   margin: 0px auto;
   justify-content: center;
+}
+
+article {
+  flex-direction: column;
+  margin-bottom: 20px;
 }
 
 .title {
@@ -222,13 +224,6 @@ video {
 #lesson-9 {
     background-image: url(../images/kedu-lesson-9.jpg);
     background-size: 100% 100%;
-}
-
-article {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-bottom: 20px;
 }
 
 #comment-felt {
