@@ -168,6 +168,7 @@ article {
   display: flex;
   width: 300px;
   height: 200px;
+  margin: 0px 2px;
 }
 #lesson-1 {
     background-image: url(../images/kedu-lesson-1.jpg);
@@ -175,6 +176,10 @@ article {
 }
 #lesson-2 {
     background-image: url(../images/kedu-lesson-2.jpg);
+    background-size: 100% 100%;
+}
+#lesson-3 {
+    background-image: url(../images/kedu-lesson-3.jpg);
     background-size: 100% 100%;
 }
 
