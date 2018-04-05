@@ -4,6 +4,7 @@ body {
   height: 100vh;
   font-family: 'Lato', sans-serif;
   background-color: #f1f1f2;
+  max-width:100%;
 }
 
 #site-wrapper {
@@ -93,7 +94,7 @@ nav {
 
 section {
   display: flex;
-  flex: 2;
+  flex: 3;
   flex-direction: column;
 
 }
@@ -125,10 +126,22 @@ article {
     color: white;
     display: flex;
     width: 90%;
-    max-height: 30px;
-    height: auto;
+    height: 40px;
     margin: 20px auto 0px auto;
+    justify-content: center;
 }
+
+.create {
+  background-color: #00a19b;
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  height: 40px;
+  margin: 20px auto 0px auto;
+  border-radius: 25px;
+}
+
 
 .subject {
     background-color: #ffffff;
@@ -142,11 +155,43 @@ article {
     border-color: #f1f1f2;
 }
 
+.lessons-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.lessons {
+  background-color: #216393;
+  color: white;
+  display: flex;
+  width: 300px;
+  height: 40px;
+  margin: 20px 5px;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#comment-felt {
+  display: flex;
+  height: 40px;
+  flex: 1;
+}
+
+/* TEXT */
+
 h1 {
   font-family: 'Cabin Sketch', cursive;
-  font-weight: bold;
-  display: block;
-  margin: 0px;
+
+  text-align: center;
+  color: #216393;
+  font-size: 350%;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 h2 {
@@ -155,6 +200,7 @@ h2 {
 
 h3 {
   margin: 0px;
+  text-align: center;
 }
 
 h4 {
@@ -165,6 +211,8 @@ h4 {
 p {
   margin: 5px;
 }
+
+/*  FOOTER */
 
 footer {
   width: 100vw;
@@ -187,7 +235,6 @@ footer {
     flex-direction: column;
     max-height: 80px;
     height: auto;
-
 }
 
 #logo-white {
@@ -195,6 +242,5 @@ footer {
   display: flex;
   width: 100px;
   height: 31px;
-
   background-size: 100% 100%;
 }
