@@ -245,6 +245,11 @@ footer {
   margin-top: 10px;
 }
 
+.footer-2 {
+  position: absolute;
+  bottom: 0;
+}
+
 #year {
   height: 50px;
   width: 50px;
