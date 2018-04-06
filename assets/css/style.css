@@ -128,7 +128,8 @@ article {
     color: white;
     display: flex;
     width: 90%;
-    height: 40px;
+    height: 100%;
+    max-height: 40px;
     margin: 20px auto 0px auto;
     justify-content: center;
 }
