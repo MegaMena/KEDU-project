@@ -191,7 +191,6 @@ video {
   margin: 0px 10px 2px 10px;
 }
 
-
 .description {
   width: 290px;
   height: 197px;
@@ -213,6 +212,15 @@ video {
   width: 60px;
   background-size: 100% 100%;
   margin: auto 5px;
+}
+
+.active {
+  color: white;
+  background-color: #216393;
+}
+
+#lesson-info {
+
 }
 
 /* TEXT */
