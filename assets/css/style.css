@@ -219,8 +219,20 @@ video {
   background-color: #216393;
 }
 
-#lesson-info {
+.lesson-info {
+  display: flex;
+  width: 290px;
+  height: 197px;
+  margin: 0px 10px 2px 10px;
+  background: red;
+  position: relative;
+}
 
+.lesson-info-container {
+  display: flex;
+  flex-direction: row;
+  width: 930px;
+  position: absolute;
 }
 
 /* TEXT */
