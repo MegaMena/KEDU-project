@@ -145,6 +145,10 @@ article {
   border-radius: 25px;
 }
 
+.create:hover {
+  background-color: #00726e;
+}
+
 .subject {
     background-color: #ffffff;
     color: black;
