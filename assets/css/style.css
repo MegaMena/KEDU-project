@@ -220,6 +220,14 @@ video {
   background-color: #216393;
 }
 
+#thumbs-up-white {
+  display: none;
+  width: 20px;
+  height: auto;
+  position: absolute;
+  bottom: 20px;
+}
+
 .lesson1-info {
   display: flex;
   width: 290px;
@@ -231,6 +239,11 @@ video {
   color: white;
   transition: height 2s;
   bottom: 0px;
+}
+
+.lesson1-info:hover > #thumbs-up-white {
+  display: inline;
+  transition-delay: 2s;
 }
 
 .lesson2-info {
