@@ -222,10 +222,10 @@ video {
 
 #thumbs-up-white {
   display: none;
-  width: 20px;
+  width: 18px;
   height: auto;
   position: absolute;
-  bottom: 20px;
+  bottom: 15px;
 }
 
 .lesson1-info {
