@@ -232,7 +232,27 @@ video {
   background-color: #216393;
 }
 
+.lesson-thumbs-up-container {
+  display: none;
+  width: 18px;
+  height: auto;
+  position: absolute;
+  bottom: 0px;
+}
+
+.lesson-thumbs-up-number {
+  position: absolute;
+  bottom: 0px;
+}
+
 #thumbs-up-white {
+  width: 18px;
+  height: auto;
+  position: absolute;
+  bottom: 15px;
+}
+
+#eye-icon-white {
   display: none;
   width: 18px;
   height: auto;
@@ -249,11 +269,21 @@ video {
   position: relative;
   justify-content: center;
   color: white;
-  transition: height 2s;
+  transition: height 0.5s;
   bottom: 0px;
 }
 
-.lesson1-info:hover > #thumbs-up-white {
+.lesson1-info:hover .lesson-thumbs-up-container {
+  display: inline;
+  transition-delay: 2s;
+}
+
+.lesson2-info:hover .lesson-thumbs-up-container {
+  display: inline;
+  transition-delay: 2s;
+}
+
+.lesson3-info:hover .lesson-thumbs-up-container {
   display: inline;
   transition-delay: 2s;
 }
@@ -267,7 +297,7 @@ video {
   position: relative;
   justify-content: center;
   color: white;
-  transition: height 2s;
+  transition: height 0.5s;
   bottom: 0px;
 }
 
@@ -280,7 +310,7 @@ video {
   position: relative;
   justify-content: center;
   color: white;
-  transition: height 2s;
+  transition: height 0.5s;
   bottom: 0px;
 }
 
