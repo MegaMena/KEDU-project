@@ -24,7 +24,7 @@ header {
 #logo {
   background-image: url(../images/kedu-logo.png);
   width: 190px;
-  height: 68px;
+  height: 64px;
   background-size: 100% 100%;
   margin: 0px 30px;
 
@@ -47,7 +47,7 @@ a {
 nav li a {
     display: block;
     text-align: center;
-    padding: 22px;
+    padding: 24px;
 }
 nav li a:hover {
   color: white;
@@ -69,7 +69,7 @@ nav {
   height: 50px;
   width: 50px;
   background-size: 100% 100%;
-  margin: 10px 30px;
+  margin: auto 30px;
   display: flex;
 }
 
@@ -163,8 +163,8 @@ article {
 video {
   display: flex;
   width: 90%;
-  max-height: auto;
-  height: auto;
+  max-height: 370px;
+  height: 100%;
   margin: 0px auto 0px auto;
 }
 
