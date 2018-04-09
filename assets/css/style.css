@@ -430,6 +430,7 @@ footer {
   width: 50px;
   display: flex;
   float: left;
+  margin-left: 15px;
 }
 
 #powered-by {
@@ -446,4 +447,5 @@ footer {
   width: 100px;
   height: 31px;
   background-size: 100% 100%;
+  margin-right: 15px;
 }
