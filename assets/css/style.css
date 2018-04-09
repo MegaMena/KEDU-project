@@ -240,19 +240,44 @@ video {
   bottom: 0px;
 }
 
-#thumbs-up-white {
-  width: 18px;
-  height: auto;
-  position: absolute;
-  bottom: 15px;
-}
-
-#eye-icon-white {
+.lesson-eye-container {
   display: none;
   width: 18px;
   height: auto;
   position: absolute;
-  bottom: 15px;
+  bottom: 0px;
+}
+
+.lesson-comment-container {
+  display: none;
+  width: 18px;
+  height: auto;
+  position: absolute;
+  bottom: 0px;
+}
+
+#thumbs-up-white {
+  width: 18px;
+  height: auto;
+  position: absolute;
+  bottom: 2px;
+  right: 38px;
+}
+
+#eye-icon-white {
+  width: 23px;
+  height: auto;
+  position: absolute;
+  bottom: 3px;
+  right: 0px;
+}
+
+#comment-icon-white {
+  width: 20px;
+  height: auto;
+  position: absolute;
+  bottom: 3px;
+  left: 36px;
 }
 
 .lesson1-info {
@@ -279,6 +304,36 @@ video {
 }
 
 .lesson3-info:hover .lesson-thumbs-up-container {
+  display: inline;
+  transition-delay: 2s;
+}
+
+.lesson1-info:hover .lesson-eye-container {
+  display: inline;
+  transition-delay: 2s;
+}
+
+.lesson2-info:hover .lesson-eye-container {
+  display: inline;
+  transition-delay: 2s;
+}
+
+.lesson3-info:hover .lesson-eye-container {
+  display: inline;
+  transition-delay: 2s;
+}
+
+.lesson1-info:hover .lesson-comment-container {
+  display: inline;
+  transition-delay: 2s;
+}
+
+.lesson2-info:hover .lesson-comment-container {
+  display: inline;
+  transition-delay: 2s;
+}
+
+.lesson3-info:hover .lesson-comment-container {
   display: inline;
   transition-delay: 2s;
 }
@@ -322,7 +377,8 @@ video {
   position: relative;
   bottom: 0px;
   transition: height 2s;
-  bottom: 0px;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .lesson2-hover-container {
@@ -331,7 +387,6 @@ video {
   position: relative;
   bottom: 0px;
   transition: height 2s;
-  bottom: 0px;
 }
 
 .lesson3-hover-container {
@@ -340,7 +395,6 @@ video {
   position: relative;
   bottom: 0px;
   transition: height 2s;
-  bottom: 0px;
 }
 
 .lesson1-hover-container:hover > .lesson1-info{
