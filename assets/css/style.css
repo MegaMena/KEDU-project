@@ -60,8 +60,20 @@ nav {
 }
 
 #search-bar {
-  margin: 22px 30px;
+  margin: 20px 30px;
   display: flex;
+  height: 27px;
+}
+
+#search-icon {
+  width: 25px;
+  height: 27px;
+  display: flex;
+  background-color: #216393;
+  float: left;
+  background-size: 100% 100%;
+  background-image: url(../images/lupe.jpg);
+
 }
 
 #profile-pic {
