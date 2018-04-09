@@ -175,7 +175,7 @@ article {
 video {
   display: flex;
   width: 90%;
-  max-height: 370px;
+  max-height: 700px;
   height: 100%;
   margin: 0px auto 0px auto;
 }
