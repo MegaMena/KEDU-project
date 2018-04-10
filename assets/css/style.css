@@ -65,6 +65,13 @@ nav {
   height: 27px;
 }
 
+#search-bar-lesson {
+  display: flex;
+  height: 40px;
+  width: 70%;
+  margin-left: 10px;
+}
+
 #search-icon {
   width: 25px;
   height: 27px;
@@ -503,4 +510,42 @@ footer {
   height: 31px;
   background-size: 100% 100%;
   margin-right: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #logo {
+    align-self: center;
+  }
+
+
+  ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #content {
+    display: flex;
+    flex direction: row;
+    justify-content: center;
+  }
+  nav li a {
+      display: block;
+      text-align: center;
+      padding: 22px;
+      margin-left: auto;
+      margin-right: auto;
+}
+  #search-bar {
+    align-self: center;
+  }
+
+  #profile-pic {
+    align-self: center;
+    margin-bottom: 20px;
+  }
 }
