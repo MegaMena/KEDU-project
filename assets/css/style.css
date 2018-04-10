@@ -456,6 +456,17 @@ video {
   background: rgba(0, 0, 0, 0.8);
   font-size: 110%;
 }
+#lessonbtn {
+  background-color: #00a19b;
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 170px;
+  height: 170px;
+  margin: 20px auto 0px auto;
+  border-radius: 50%;
+  z-index: 5;
+}
 
 /* TEXT */
 
