@@ -41,7 +41,19 @@ var modalStav = document.querySelector(".modal-bg-staveleg");
 
 var showModalStav = document.querySelector(".showStavelegModal");
 
+var spanStav = document.getElementsByClassName("close-stav")[0];
+
 showModalStav.addEventListener('click', function(staveEvent)
 {
   modalStav.style.display="block";
 });
+
+spanStav.onclick = function() {
+    modalStav.style.display = "none";
+}
+
+window.onclick = function(staveEvent){
+  if (staveEvent.target == modalStav){
+      modalStav.style.display = "none";
+  }
+}

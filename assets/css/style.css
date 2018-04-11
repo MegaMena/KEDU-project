@@ -619,6 +619,13 @@ button {
     font-weight: bold;
 }
 
+.close-stav {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
 .modal-bg-staveleg {
   position: fixed;
   top: 0;
