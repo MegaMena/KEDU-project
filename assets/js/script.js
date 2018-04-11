@@ -25,9 +25,8 @@ window.onclick = function(event) {
 
 
 
-/*joanna's java*/
-/* When the user clicks on the dropdown,
-toggle between hiding and showing the dropdown content */
+/*Joanna's java*/
+/*dropdown*/
 function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
