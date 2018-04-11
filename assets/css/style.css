@@ -225,7 +225,7 @@ video {
   display: flex;
   width: 290px;
   height: 197px;
-  margin: 0px 10px 10px 10px;
+  margin: 5px 10px 5px 10px;
 }
 
 .description {
@@ -308,7 +308,7 @@ video {
   display: flex;
   width: 290px;
   height: 49.25px;
-  margin: 0px 10px 10px 10px;
+  margin: 5px 10px 5px 10px;
   background: rgba(0, 0, 0, 0.5);
   position: relative;
   justify-content: center;
@@ -366,7 +366,7 @@ video {
   display: flex;
   width: 290px;
   height: 49.25px;
-  margin: 0px 10px 10px 10px;
+  margin: 5px 10px 5px 10px;
   background: rgba(0, 0, 0, 0.5);
   position: relative;
   justify-content: center;
@@ -379,7 +379,7 @@ video {
   display: flex;
   width: 290px;
   height: 49.25px;
-  margin: 0px 10px 10px 10px;
+  margin: 5px 10px 5px 10px;
   background: rgba(0, 0, 0, 0.5);
   position: relative;
   justify-content: center;
@@ -437,7 +437,7 @@ video {
   display: flex;
   width: 290px;
   height: 197px;
-  margin: 0px 10px 10px 10px;
+  margin: 5px 10px 5px 10px;
   background: rgba(0, 0, 0, 0.5);
   position: relative;
   justify-content: center;
@@ -538,6 +538,42 @@ footer {
   height: 31px;
   background-size: 100% 100%;
   margin-right: 20px;
+}
+.showModal {
+  background-color: #00a19b;
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  height: 40px;
+  margin: 20px auto 0px auto;
+  border-radius: 25px;
+}
+.modal-bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.modal {
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 600px) {
