@@ -188,13 +188,15 @@ button:hover {
 
 }
 
-.dropbtn1:hover, .dropbtn1:focus {
-    background-color: #ffffff;
-}
 
 .dropdown1 {
-    position: relative;
-    display: inline-block;
+  background-color: #ffffff;
+  color: black;
+  width: 90%;
+  height: 60px;
+  margin: 0px auto 0px auto;
+  border-bottom: solid 0.2px;
+  border-color: #f1f1f2;
 }
 
 .dropdown-content1 {
