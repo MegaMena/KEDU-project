@@ -188,7 +188,7 @@ button:hover {
 
 }
 
-.dropbtn1:hover, .dropbtn:focus {
+.dropbtn1:hover, .dropbtn1:focus {
     background-color: #ffffff;
 }
 
@@ -200,12 +200,13 @@ button:hover {
 .dropdown-content1 {
   background-color: #ffffff;
   color: black;
-  display: flex;
+  display: none;
+  position: absolute;
   width: 90%;
-  height: 60px;
-  margin: 0px auto 0px auto;
-  border-bottom: solid 0.2px;
-  border-color: #f1f1f2;
+  height: 100%;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
 }
 
 .dropdown-content1 a {
@@ -215,7 +216,7 @@ button:hover {
     display: block;
 }
 
-.dropdown1 a:hover {background-color: #ddd}
+
 
 .show {display:block;}
 
