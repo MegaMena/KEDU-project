@@ -159,6 +159,11 @@ article {
     justify-content: center;
 }
 
+#kim-img {
+  height: 50px;
+  border-radius: 50%;
+}
+
 button:hover {
   background-color: #00726e;
 }
