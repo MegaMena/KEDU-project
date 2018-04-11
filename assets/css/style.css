@@ -203,6 +203,17 @@ video {
   margin: 0px auto 0px auto;
 }
 
+#staveleg-img {
+  margin: 20px;
+  height: 400px;
+  width: auto;
+}
+
+.lesson-details {
+  margin: 20px;
+  width: 250px;
+}
+
 .lessons-container{
   display: flex;
   flex-direction: row;
@@ -559,11 +570,42 @@ footer {
   padding: 10px;
 }
 
+.modal-staveleg {
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
 .close {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
+}
+
+.modal-bg-staveleg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.showStavelegModal {
+    background-color: #ffffff;
+    color: black;
+    display: flex;
+    width: 90%;
+    height: 60px;
+    margin: 0px auto 0px auto;
+    border-bottom: solid 0.2px;
+    border-color: #f1f1f2;
 }
 
 @media screen and (max-width: 600px) {
