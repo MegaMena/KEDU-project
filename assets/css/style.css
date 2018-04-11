@@ -8,10 +8,6 @@ body {
   overflow-x: hidden;
 }
 
-#site-wrapper {
-  margin: 0;
-}
-
 header {
   display: flex;
   flex-direction: row;
@@ -30,13 +26,13 @@ header {
 
 }
 
-ul {
+nav ul {
   display: flex;
   flex-direction: row;
   margin: 0px;
 }
 
-li {
+nav li {
   display: block;
 }
 a {
@@ -52,7 +48,6 @@ nav li a {
 nav li a:hover {
   color: white;
   background-color: #216393;
-
 }
 
 nav {
@@ -96,7 +91,6 @@ nav {
   float: left;
   background-size: 100% 100%;
   background-image: url(../images/lupe.jpg);
-
 }
 
 #profile-pic {
@@ -149,13 +143,9 @@ article {
   width: 90%;
   background-color: white;
   color:  black;
-  margin: 0px auto;
+  margin: 0px auto 20px auto;
   justify-content: center;
-}
-
-article {
   flex-direction: column;
-  margin-bottom: 20px;
 }
 
 .title {
@@ -169,21 +159,9 @@ article {
     justify-content: center;
 }
 
-.create {
-  background-color: #00a19b;
-  color: white;
-  display: flex;
-  justify-content: center;
-  width: 90%;
-  height: 40px;
-  margin: 20px auto 0px auto;
-  border-radius: 25px;
-}
-
-.create:hover {
+button:hover {
   background-color: #00726e;
 }
-
 .subject {
     background-color: #ffffff;
     color: black;
@@ -239,6 +217,10 @@ video {
   width: 60px;
   background-size: 100% 100%;
   margin: auto 5px;
+}
+
+.small-profile {
+  background-image: url(../images/helle.JPG);
 }
 
 .active {
@@ -529,7 +511,7 @@ footer {
   background-size: 100% 100%;
   margin-right: 20px;
 }
-.showModal {
+button {
   background-color: #00a19b;
   color: white;
   display: flex;
@@ -539,6 +521,7 @@ footer {
   margin: 20px auto 0px auto;
   border-radius: 25px;
 }
+
 .modal-bg {
   position: fixed;
   top: 0;
