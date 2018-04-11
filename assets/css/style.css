@@ -195,6 +195,53 @@ article {
     border-color: #f1f1f2;
 }
 
+
+/*dropdown */
+
+.dropbtn {
+    background-color: #ffffff;
+    color: black;
+    display: flex;
+    width: 90%;
+    height: 60px;
+    margin: 0px auto 0px auto;
+    border-bottom: solid 0.2px;
+    border-color: #f1f1f2;
+
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #ffffff;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+  background-color: #ffffff;
+  color: black;
+  display: flex;
+  width: 90%;
+  height: 60px;
+  margin: 0px auto 0px auto;
+  border-bottom: solid 0.2px;
+  border-color: #f1f1f2;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #ddd}
+
+.show {display:block;}
+
+
 video {
   display: flex;
   width: 90%;
