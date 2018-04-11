@@ -8,10 +8,6 @@ body {
   overflow-x: hidden;
 }
 
-#site-wrapper {
-  margin: 0;
-}
-
 header {
   display: flex;
   flex-direction: row;
@@ -30,13 +26,13 @@ header {
 
 }
 
-ul {
+nav ul {
   display: flex;
   flex-direction: row;
   margin: 0px;
 }
 
-li {
+nav li {
   display: block;
 }
 a {
@@ -52,7 +48,6 @@ nav li a {
 nav li a:hover {
   color: white;
   background-color: #216393;
-
 }
 
 nav {
@@ -96,7 +91,6 @@ nav {
   float: left;
   background-size: 100% 100%;
   background-image: url(../images/lupe.jpg);
-
 }
 
 #profile-pic {
@@ -149,13 +143,9 @@ article {
   width: 90%;
   background-color: white;
   color:  black;
-  margin: 0px auto;
+  margin: 0px auto 20px auto;
   justify-content: center;
-}
-
-article {
   flex-direction: column;
-  margin-bottom: 20px;
 }
 
 .title {
@@ -169,21 +159,9 @@ article {
     justify-content: center;
 }
 
-.create {
-  background-color: #00a19b;
-  color: white;
-  display: flex;
-  justify-content: center;
-  width: 90%;
-  height: 40px;
-  margin: 20px auto 0px auto;
-  border-radius: 25px;
-}
-
-.create:hover {
+button:hover {
   background-color: #00726e;
 }
-
 .subject {
     background-color: #ffffff;
     color: black;
@@ -250,6 +228,17 @@ video {
   margin: 0px auto 0px auto;
 }
 
+#staveleg-img {
+  margin: 20px;
+  height: 400px;
+  width: auto;
+}
+
+.lesson-details {
+  margin: 20px;
+  width: 250px;
+}
+
 .lessons-container{
   display: flex;
   flex-direction: row;
@@ -286,6 +275,10 @@ video {
   width: 60px;
   background-size: 100% 100%;
   margin: auto 5px;
+}
+
+.small-profile {
+  background-image: url(../images/helle.JPG);
 }
 
 .active {
@@ -576,7 +569,7 @@ footer {
   background-size: 100% 100%;
   margin-right: 20px;
 }
-.showModal {
+button {
   background-color: #00a19b;
   color: white;
   display: flex;
@@ -586,6 +579,7 @@ footer {
   margin: 20px auto 0px auto;
   border-radius: 25px;
 }
+
 .modal-bg {
   position: fixed;
   top: 0;
@@ -606,11 +600,42 @@ footer {
   padding: 10px;
 }
 
+.modal-staveleg {
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
 .close {
     color: #aaa;
     float: right;
     font-size: 28px;
     font-weight: bold;
+}
+
+.modal-bg-staveleg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.showStavelegModal {
+    background-color: #ffffff;
+    color: black;
+    display: flex;
+    width: 90%;
+    height: 60px;
+    margin: 0px auto 0px auto;
+    border-bottom: solid 0.2px;
+    border-color: #f1f1f2;
 }
 
 @media screen and (max-width: 600px) {

@@ -46,3 +46,15 @@ window.onclick = function(event) {
     }
   }
 }
+
+
+//* DETTE VISER MODAL FOR STAVELEG*//
+
+var modalStav = document.querySelector(".modal-bg-staveleg");
+
+var showModalStav = document.querySelector(".showStavelegModal");
+
+showModalStav.addEventListener('click', function(staveEvent)
+{
+  modalStav.style.display="block";
+});
