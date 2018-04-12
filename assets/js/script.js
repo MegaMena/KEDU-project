@@ -31,7 +31,9 @@ function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
 
-
+function myFunction() {
+    document.getElementById("myDropdown2").classList.toggle("show");
+}
 
 
 //* DETTE VISER MODAL FOR STAVELEG*//
