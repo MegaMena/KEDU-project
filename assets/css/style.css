@@ -105,7 +105,7 @@ nav {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: white;
+    background-color: #dddddd;
     min-width: 100px;
     z-index: 1;
     margin-top: 3.5%;
