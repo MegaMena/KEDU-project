@@ -132,14 +132,10 @@ function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
 
-<<<<<<< HEAD
 function myFunction() {
     document.getElementById("myDropdown2").classList.toggle("show");
 }
 
-
-=======
->>>>>>> c09d23bb555024292513fdacc36b3211767e7725
 //* DETTE VISER MODAL FOR STAVELEG*//
 
 var modalStav = document.querySelector(".modal-bg-staveleg");
