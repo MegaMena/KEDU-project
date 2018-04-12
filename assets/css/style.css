@@ -105,10 +105,22 @@ nav {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: white;
-    min-width: 160px;
+    background-color: #dddddd;
+    min-width: 100px;
     z-index: 1;
+    margin-top: 3.5%
+
 }
+
+.dropdown-content a {
+  display: block;
+  padding: 15px 16px;
+}
+
+.dropdown-content a:hover {
+  background-color: #9e9e9e;
+}
+
 
 #profile-pic:hover .dropdown-content {
     display: flex;
@@ -193,7 +205,6 @@ button:hover {
 
 }
 
-
 .dropdown1 {
   background-color: #ffffff;
   color: black;
@@ -212,8 +223,6 @@ button:hover {
   width: 67.5%;
   height: 90%;
   overflow: auto;
-
-
 
 }
 
