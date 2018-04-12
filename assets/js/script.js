@@ -126,7 +126,6 @@ window.onclick = function(event) {
     }
 }
 
-
 /*Joanna's java*/
 /*dropdown*/
 function myFunction() {
