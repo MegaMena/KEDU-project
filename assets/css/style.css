@@ -105,10 +105,22 @@ nav {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: white;
-    min-width: 160px;
+    background-color: #dddddd;
+    min-width: 100px;
     z-index: 1;
+    margin-top: 3.5%
+
 }
+
+.dropdown-content a {
+  display: block;
+  padding: 15px 16px;
+}
+
+.dropdown-content a:hover {
+  background-color: #9e9e9e;
+}
+
 
 #profile-pic:hover .dropdown-content {
     display: flex;
@@ -196,7 +208,6 @@ button:hover {
 
 }
 
-
 .dropdown1 {
   background-color: #ffffff;
   color: black;
@@ -215,7 +226,10 @@ button:hover {
   width: 90%;
   height: 100%;
   overflow: auto;
+<<<<<<< HEAD
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+=======
+>>>>>>> b531bba738aa07438dc547b4fa99827fbfaa6c59
 
 }
 
@@ -568,7 +582,7 @@ footer {
   height: 12vh;
   background-color: #216393;
   color: white;
-  margin-top: 10px;
+  margin-top: 40px;
 }
 
 .footer-2 {
@@ -630,6 +644,8 @@ button {
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 10px;
+  max-height: calc(100vh - 210px);
+  overflow-y: auto;
 }
 
 .modal-staveleg {
