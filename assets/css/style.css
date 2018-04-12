@@ -288,6 +288,7 @@ video {
 
 .small-img {
   background-image: url(../images/kedu-lesson-8.jpg);
+  float: left;
   height: 40px;
   width: 60px;
   background-size: 100% 100%;
@@ -300,7 +301,13 @@ video {
 
 .small-profile {
   background-image: url(../images/helle.JPG);
+
 }
+
+.datomm {
+  text-align: left;
+}
+
 
 .active {
   color: white;
