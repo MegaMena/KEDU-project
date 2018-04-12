@@ -288,7 +288,7 @@ video {
   margin: 5px 10px 5px 10px;
 }
 
-#comment-felt {
+#commentText {
   display: flex;
   max-height: 40px;
   flex: 1;
@@ -300,6 +300,10 @@ video {
   width: 60px;
   background-size: 100% 100%;
   margin: auto 5px;
+}
+
+.small-img-1 {
+  background-image: url(../images/stock.png);
 }
 
 .small-profile {
