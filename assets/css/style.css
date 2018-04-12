@@ -162,6 +162,7 @@ article {
 button:hover {
   background-color: #00726e;
 }
+
 .subject {
     background-color: #ffffff;
     color: black;
@@ -173,6 +174,14 @@ button:hover {
     border-color: #f1f1f2;
 }
 
+.title-overview-stav {
+    background-color: #216393;
+    color: white;
+    display: flex;
+    width: 90%;
+    height: 100%;
+    margin: 0px auto 0px auto;
+}
 
 /*dropdown */
 
@@ -204,7 +213,7 @@ button:hover {
   color: black;
   display: none;
   position: absolute;
-  width: 67.5%;
+  width: 90%;
   height: 100%;
   overflow: auto;
 
@@ -313,7 +322,7 @@ video {
   margin: 5px 10px 5px 10px;
 }
 
-#comment-felt {
+#commentText {
   display: flex;
   max-height: 40px;
   flex: 1;
@@ -325,6 +334,10 @@ video {
   width: 60px;
   background-size: 100% 100%;
   margin: auto 5px;
+}
+
+.small-img-1 {
+  background-image: url(../images/stock.png);
 }
 
 .small-profile {
@@ -372,7 +385,7 @@ video {
   width: 18px;
   height: auto;
   position: relative;
-  margin: 12px 12px 12px 0px;
+  margin: 12px 12px 12px 4px;
 }
 
 #eye-icon-white {
@@ -582,12 +595,12 @@ h1 {
 }
 
 h2 {
-  margin: 2px;
+  margin: 0px;
   text-align: center;
 }
 
 h3 {
-  margin: 8px;
+  margin: 0px;
   text-align: center;
 }
 
