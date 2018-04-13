@@ -799,7 +799,10 @@ button {
     border-bottom: solid 0.2px;
     border-color: #f1f1f2;
 }
-
+.addComment {
+  height: 50px;
+  width:100px;
+}
 
 @media screen and (max-width: 600px) {
   header {
