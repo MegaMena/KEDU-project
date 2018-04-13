@@ -174,15 +174,6 @@ button:hover {
     border-color: #f1f1f2;
 }
 
-.title-overview-stav {
-    background-color: #216393;
-    color: white;
-    display: flex;
-    width: 90%;
-    height: 100%;
-    margin: 0px auto 0px auto;
-}
-
 /*dropdown */
 
 .dropbtn1 {
@@ -277,7 +268,38 @@ button:hover {
 
 .show {display:block;}
 
+/*Staveleg dropdown*/
+.dropbtn-title-overview-stav {
+    background-color: #216393;
+    color: white;
+    display: flex;
+    width: 90%;
+    height: 100%;
+    margin: 0px auto 0px auto;
+}
 
+.dropbtn-title-overview-stav:hover, .dropbtn-title-overview-stav:focus {
+  background-color: #044C7F;
+}
+
+.stav-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.stav-dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: ##f1f1f2;
+  width: 100%;
+  overflow: auto;
+  z-index: 1;
+}
+
+.stav-dropdown-content p {
+  color: black;
+  display: block;
+}
 
 video {
   display: flex;
