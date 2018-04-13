@@ -59,3 +59,25 @@ window.onclick = function(staveEvent){
       modalStav.style.display = "none";
   }
 }
+//*DETTE VISER CHAT MODAL*//
+var modalChat = document.querySelector(".modal-bg-chat");
+
+var showModalChatBtn = document.querySelector(".showModalChat");
+
+var spanChat = document.getElementsByClassName("close-chat")[0];
+
+showModalChatBtn.addEventListener('click', function(chatEvent)
+{
+
+  modalChat.style.display = "block";
+});
+
+spanChat.onclick = function() {
+    modalChat.style.display = "none";
+}
+
+window.onclick = function(event) {
+    if (chatEvent.target == modalChat) {
+        modalChat.style.display = "none";
+    }
+}
