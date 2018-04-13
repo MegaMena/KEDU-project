@@ -30,7 +30,12 @@ function myFunction() {
     document.getElementById("myDropdown").classList.toggle("show");
 }
 
+/*Amanda's java*/
+/*dropdown*/
 
+function myFunction() {
+  document.getElementById("myStavDropdown").classList.toggle("show");
+}
 
 //* DETTE VISER MODAL FOR STAVELEG*//
 
