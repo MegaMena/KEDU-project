@@ -33,7 +33,7 @@ function myFunction() {
 /*Amanda's java*/
 /*dropdown*/
 
-function myFunction() {
+function stavFunction() {
   document.getElementById("myStavDropdown").classList.toggle("show");
 }
 
