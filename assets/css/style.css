@@ -641,6 +641,8 @@ button {
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 10px;
+  max-height: calc(100vh - 210px);
+  overflow-y: auto;
 }
 
 .modal-staveleg {
