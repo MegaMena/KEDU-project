@@ -105,9 +105,21 @@ nav {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: white;
-    min-width: 160px;
+    background-color: #dddddd;
+    min-width: 100px;
     z-index: 1;
+    margin-top: 3.5%;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 15px 16px;
+
+}
+
+.dropdown-content a:hover {
+  background-color: #9e9e9e;
+
 }
 
 #profile-pic:hover .dropdown-content {
@@ -645,6 +657,8 @@ button {
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 10px;
+  max-height: calc(100vh - 210px);
+  overflow-y: auto;
 }
 
 .modal-staveleg {
