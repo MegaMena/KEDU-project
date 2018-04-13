@@ -34,7 +34,7 @@ function myFunction() {
 /*dropdown*/
 
 function stavFunction() {
-  document.getElementById("myStavDropdown").classList.toggle("show");
+  document.getElementById("myStavDropdown").classList.toggle("stavShow");
 }
 
 //* DETTE VISER MODAL FOR STAVELEG*//
