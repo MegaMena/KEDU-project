@@ -105,21 +105,9 @@ nav {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #dddddd;
-    min-width: 100px;
+    background-color: white;
+    min-width: 160px;
     z-index: 1;
-    margin-top: 3.5%;
-}
-
-.dropdown-content a {
-  display: block;
-  padding: 15px 16px;
-
-}
-
-.dropdown-content a:hover {
-  background-color: #9e9e9e;
-
 }
 
 #profile-pic:hover .dropdown-content {
@@ -220,23 +208,16 @@ button:hover {
   border-color: #f1f1f2;
 }
 
-
 .dropdown-content1 {
   background-color: #ffffff;
   color: black;
   display: none;
   position: absolute;
-  width: 67.5%;
+  width: 90%;
   height: 100%;
   overflow: auto;
 
 
-
-}
-
-.infooverskrift {
-  margin: auto -5%;
-  font-weight: 300;
 }
 
 .dropdown-content1 a {
@@ -248,6 +229,55 @@ button:hover {
 
 
 .show {display:block;}
+
+/*dropdown 2*/
+
+.dropbtn2 {
+    background-color: #ffffff;
+    color: black;
+    display: flex;
+    width: 90%;
+    height: 60px;
+    margin: 0px auto 0px auto;
+    border-bottom: solid 0.2px;
+    border-color: #f1f1f2;
+
+}
+
+
+.dropdown2 {
+  background-color: #ffffff;
+  color: black;
+  width: 90%;
+  height: 60px;
+  margin: 0px auto 0px auto;
+  border-bottom: solid 0.2px;
+  border-color: #f1f1f2;
+}
+
+.dropdown-content2 {
+  background-color: #ffffff;
+  color: black;
+  display: none;
+  position: absolute;
+  width: 67.5%;
+  height: 100%;
+  overflow: auto;
+
+
+}
+
+.dropdown-content2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.show {display:block;}
+
+
 
 video {
   display: flex;
@@ -300,7 +330,6 @@ video {
 
 .small-img {
   background-image: url(../images/kedu-lesson-8.jpg);
-  float: left;
   height: 40px;
   width: 60px;
   background-size: 100% 100%;
@@ -313,10 +342,7 @@ video {
 
 .small-profile {
   background-image: url(../images/helle.JPG);
-
 }
-
-
 
 .active {
   color: white;
@@ -657,8 +683,6 @@ button {
   left: 50%;
   transform: translate(-50%, -50%);
   padding: 10px;
-  max-height: calc(100vh - 210px);
-  overflow-y: auto;
 }
 
 .modal-staveleg {
