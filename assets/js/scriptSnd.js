@@ -40,7 +40,7 @@ function buildList()
 
   for(var i = 0; i < commentList.length; i++)
   {
-    /*var liElm = document.createElement("li");*/
+    var liElm = document.createElement("div").classList.add("subject");
     var textPElm = document.createElement("h3");
     var delBtnElm = document.createElement("button");
     var editBtnElm = document.createElement("button");
@@ -55,9 +55,9 @@ function buildList()
     editBtnElm.setAttribute("data-index", i);
     editBtnElm.addEventListener("click", submitEditEvent);
 
-    /*liElm.appendChild(textPElm);
+    liElm.appendChild(textPElm);
     liElm.appendChild(delBtnElm);
-    liElm.appendChild(editBtnElm);*/
+    liElm.appendChild(editBtnElm);
 
     ulElm.appendChild(textElm);
     ulElm.appendChild(delBtnElm);
@@ -90,7 +90,7 @@ function submitCommentEvent(event)
 {
   console.log("submit new comment goes here");
 
-  var commentText = document.querySelector("commentText");
+  var commentText = document.querySelector(".commentText");
 
   submitComment(commentText.value);
   buildList();
