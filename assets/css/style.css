@@ -93,7 +93,7 @@ nav {
   background-image: url(../images/lupe.jpg);
 }
 
-#profile-pic {
+.profile-pic {
   background-image: url(../images/profile-pic.png);
   height: 50px;
   width: 50px;
@@ -628,6 +628,14 @@ footer {
   margin-right: 20px;
 }
 
+.showModalChat {
+  background-color: #216393;
+}
+
+.showModalChat:hover {
+  background-color: #044c75;
+}
+
 button {
   background-color: #00a19b;
   color: white;
@@ -670,6 +678,15 @@ button {
   padding: 10px;
 }
 
+.modal-chat{
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
 .close {
     color: #aaa;
     float: right;
@@ -684,7 +701,25 @@ button {
     font-weight: bold;
 }
 
+.close-chat {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
 .modal-bg-staveleg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+
+.modal-bg-chat {
   position: fixed;
   top: 0;
   left: 0;
@@ -705,6 +740,18 @@ button {
     border-bottom: solid 0.2px;
     border-color: #f1f1f2;
 }
+
+.showChatModal {
+    background-color: #ffffff;
+    color: black;
+    display: flex;
+    width: 90%;
+    height: 60px;
+    margin: 0px auto 0px auto;
+    border-bottom: solid 0.2px;
+    border-color: #f1f1f2;
+}
+
 
 @media screen and (max-width: 600px) {
   header {
