@@ -288,13 +288,12 @@ button:hover {
 
 .stav-dropdown-content {
   display: none;
-  position: absolute;
   background-color: #f1f1f2;
   width: 825px;
-  left: 45px;
-  overflow: auto;
+  overflow: hidden;
   z-index: 1;
   color: black;
+  margin: 0px auto;
 }
 
 .stavShow {
