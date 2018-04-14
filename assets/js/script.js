@@ -76,7 +76,7 @@ spanChat.onclick = function() {
     modalChat.style.display = "none";
 }
 
-window.onclick = function(event) {
+window.onclick = function(chatEvent) {
     if (chatEvent.target == modalChat) {
         modalChat.style.display = "none";
     }

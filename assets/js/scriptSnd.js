@@ -34,15 +34,15 @@ function submitComment(text)
 function buildList()
 {
   var commentList = getLocal();
-  var ulElm = document.querySelector(".ulComment");
+  var ulElm = document.querySelector("article");
 
   ulElm.innerHTML = "";
 
   for(var i = 0; i < commentList.length; i++)
   {
     var liElm = document.createElement("div");
-    liElm.className = "subject";
-    var textPElm = document.createElement("h4");
+    liElm.className = ("subject");
+    var textPElm = document.createElement("p");
     var delBtnElm = document.createElement("button");
     var editBtnElm = document.createElement("button");
 

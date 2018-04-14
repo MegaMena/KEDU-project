@@ -148,6 +148,24 @@ article {
   flex-direction: column;
 }
 
+article > button {
+  height: 20px;
+  width: 70px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+}
+
+.article {
+  display: flex;
+  width: 90%;
+  background-color: white;
+  color:  black;
+  margin: 0px auto 20px auto;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .title {
     background-color: #216393;
     color: white;
@@ -172,6 +190,7 @@ button:hover {
     margin: 0px auto 0px auto;
     border-bottom: solid 0.2px;
     border-color: #f1f1f2;
+    flex-direction: row;
 }
 
 /*dropdown */
@@ -692,6 +711,11 @@ button {
   height: 40px;
   margin: 20px auto 0px auto;
   border-radius: 25px;
+}
+
+.addComment {
+    margin: 0px auto 0px auto;
+
 }
 
 .modal-bg {
