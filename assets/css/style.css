@@ -758,3 +758,34 @@ th {
   margin: 5px 5px 5px 50px;
   position: relative;
 }
+
+
+/*Styleguide*/
+
+.overskriftsg {
+  font-size: 50px;
+}
+
+.cabin {
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 121px;
+}
+
+.lato {
+  font-family: 'Lato', sans-serif;
+  font-size: 101px;
+}
+
+.center {
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+}
+
+.r {
+  display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+}
