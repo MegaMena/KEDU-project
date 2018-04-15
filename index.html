@@ -26,7 +26,7 @@
           <div id="search-icon">
           </div>
         </div>
-        <div id="profile-pic">
+        <div class="profile-pic">
           <div class="dropdown-content">
             <a href="">My Profile</a>
             <a href="">Settings</a>
@@ -58,16 +58,6 @@
               </div>
               <h4>Staveleg</h4>
             </div>
-            <div class="subject">
-              <div class="small-img">
-              </div>
-              <h4>Staveleg</h4>
-            </div>
-              <div class="subject">
-                <div class="small-img">
-                </div>
-                <h4>Staveleg</h4>
-              </div>
 
             <a href="#" class="more">More</a>
 
@@ -79,16 +69,7 @@
               </div>
               <h4>Staveleg</h4>
             </div>
-            <div class="subject">
-              <div class="small-img">
-              </div>
-              <h4>Staveleg</h4>
-            </div>
-            <div class="subject">
-              <div class="small-img">
-              </div>
-              <h4>Staveleg</h4>
-            </div>
+
               <a href="#" class="more">More</a>
 
 
@@ -114,6 +95,10 @@
           <button class="create showModal">
             <h3>Create lesson or discussion +</h3>
           </button>
+
+          <button class="showModalChat">
+            <h3>Chat</h3>
+          </button>
         </div>
       </div>
 
@@ -125,15 +110,22 @@
             <h2>Create</h2>
           </div>
           <article>
-            <p>Discussion <input type="checkbox"></p>
+            <p>Discussion <input type="checkbox" checked></p>
             <p>Lesson<input type="checkbox"></p>
           </article>
           <div class="title">
             <h3>Upload Image/video</h3>
+
           </div>
           <article>
             <p>Upload your image/video here</p>
             <p>Or choose a picture from the stock image gallery</p>
+            <button class="create">
+              <h3>Upload...</h3>
+            </button>
+            <button class="create">
+              <h3>Choose...</h3>
+            </button>
           </article>
           <div class="title">
             <h3>Text</h3>
@@ -215,18 +207,58 @@
                   </div>
                   <button class="create">
                     <h3>Add lesson to favourites +</h3>
+                  </div>
+                </div>
+            <div class="stav-dropdown">
+              <div onclick="stavFunction()" class="dropbtn-title-overview-stav">
+                <h4>1. Introduction</h4>
               </div>
+                <div id="myStavDropdown" class="stav-dropdown-content">
+                  <p>Lorem ipsum dolor sit amet, bibendum amet sagittis, porttitor eu, non praesent turpis consectetuer mollis maecenas tincidunt, tempus nulla porttitor dictum, nunc aliquet ipsa velit scelerisque.</p>
+                </div>
             </div>
-            <div class="title-overview-stav">
-              <h4>1. Introduction</h4>
-            </div>
-            <div class="title-overview-stav">
+            <div class="dropbtn-title-overview-stav">
               <h4>2. Materials</h4>
             </div>
-            <div class="title-overview-stav">
+            <div class="dropbtn-title-overview-stav">
               <h4>3. How it works</h4>
             </div>
+            <div class="comment-section">
+              <div class="title">
+                <h2>Comments</h2>
+              </div>
+              <ul></ul>
+              <article class="subject">
+                <p>No comments yet...Be the first!</p>
+                <div id="comment" class="subject">
+                  <input type="text" id="comment-felt">
+                </div>
+              </article>
+            </div>
           </section>
+        </div>
+      </div>
+
+      <div class="modal-bg-chat">
+        <div class="modal-chat">
+          <span class="close-chat">x</span>
+          <section>
+            <div class="title">
+              <h2>Chat</h2>
+            </div>
+            <div class="subject">
+              <div class="profile-pic">
+              </div>
+              <h4>Support</h4>
+            </div>
+            <div class="subject">
+              <h4>Hello, How may I help you?</h4>
+            </div>
+            <article>
+              <p>You:</p>
+              <input type="text" placeholder="Your question">
+              <button><h3>Send</h3></button>
+            </article>
         </div>
       </div>
 
@@ -238,8 +270,12 @@
         </div>
         <div id="powered-by">
           <p>powered by</p>
-          <div id="logo-white">
-          </div>
+
+          <a href="https://kubo-robot.com/" target="_blank">
+              <div id="logo-white">
+              </div>
+          </a>
+
         </div>
       </footer>
     </div>

@@ -34,18 +34,19 @@ function submitComment(text)
 function buildList()
 {
   var commentList = getLocal();
-  var ulElm = document.querySelector(".ulComment");
+  var ulElm = document.querySelector("article");
 
   ulElm.innerHTML = "";
 
   for(var i = 0; i < commentList.length; i++)
   {
-    /*var liElm = document.createElement("li");*/
-    var textPElm = document.createElement("h3");
+    var liElm = document.createElement("div");
+    liElm.className = ("subject");
+    var textPElm = document.createElement("p");
     var delBtnElm = document.createElement("button");
     var editBtnElm = document.createElement("button");
 
-    textPElm.innerHTML = noteList[i].text;
+    textPElm.innerHTML = commentList[i].text;
 
     delBtnElm.innerHTML = "Delete";
     delBtnElm.setAttribute("data-index", i);
@@ -55,11 +56,11 @@ function buildList()
     editBtnElm.setAttribute("data-index", i);
     editBtnElm.addEventListener("click", submitEditEvent);
 
-    /*liElm.appendChild(textPElm);
+    liElm.appendChild(textPElm);
     liElm.appendChild(delBtnElm);
-    liElm.appendChild(editBtnElm);*/
+    liElm.appendChild(editBtnElm);
 
-    ulElm.appendChild(textElm);
+    ulElm.appendChild(textPElm);
     ulElm.appendChild(delBtnElm);
     ulElm.appendChild(editBtnElm);
   }
@@ -88,9 +89,8 @@ function submitDelEvent(event)
 }
 function submitCommentEvent(event)
 {
-  console.log("submit new comment goes here");
 
-  var commentText = document.querySelector("commentText");
+  var commentText = document.querySelector("#commentText");
 
   submitComment(commentText.value);
   buildList();
