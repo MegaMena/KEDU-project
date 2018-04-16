@@ -160,7 +160,7 @@ article {
 
 article > button {
   height: 40px;
-  width: 70px;
+  width: 90px;
   display: flex;
   flex-direction: row;
   margin-top: 5px;
