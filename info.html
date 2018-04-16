@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="KEDU-community. Community for teachers using KUBO and the TagTiles. Learn and get inspired for your lessons.">
+    <meta name="keywords" content="KUBO,KEDU,community,teachers,home,homepage,teaching,technology,robot,elementary school,middle school,lesson,lessons,TagTiles,discussion,lessons with KUBO, KEDU Community,Online Community,">
     <title>KEDU - Info</title>
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
@@ -108,7 +110,7 @@
           <div class="title">
             <h3>History</h3>
           </div>
-            <div class="subject">
+            <div class="subject showStavelegModal">
               <div class="small-img">
               </div>
               <h4>Staveleg</h4>
@@ -122,12 +124,175 @@
               </div>
               <h4>Staveleg</h4>
             </div>
-          <button class="create">
-            <h3>create +</h3>
+          <button class="create showModal">
+            <h3>Create lesson or discussion +</h3>
           </button>
-      </div>
-          </div>
 
+          <button class="showModalChat">
+            <h3>Chat</h3>
+          </button>
+        </div>
+      </div>
+
+      <div class="modal-bg">
+        <div class="modal">
+        <span class="close">x</span>
+        <section>
+          <div class="title">
+            <h2>Create</h2>
+          </div>
+          <article>
+            <p>Discussion <input type="checkbox" checked></p>
+            <p>Lesson<input type="checkbox"></p>
+          </article>
+          <div class="title">
+            <h3>Upload Image/video</h3>
+
+          </div>
+          <article>
+            <p>Upload your image/video here</p>
+            <p>Or choose a picture from the stock image gallery</p>
+            <button class="create">
+              <h3>Upload...</h3>
+            </button>
+            <button class="create">
+              <h3>Choose...</h3>
+            </button>
+          </article>
+          <div class="title">
+            <h3>Text</h3>
+          </div>
+          <article>
+            <p>Title:</p>
+            <input type="text" placeholder="title...">
+            <p>Main text:</p>
+            <input type="text" placeholder="Text...">
+          </article>
+          <div class="title">
+            <h3>Subject</h3>
+          </div>
+          <article>
+            <p>Please choose your subject below</p>
+            <div class="lessons-container">
+                  <button class="create">
+                    <h3>Coding</h3>
+                  </button>
+                  <button class="create">
+                    <h3>Danish</h3>
+                  </button>
+                  <button class="create">
+                    <h3>Mathematics</h3>
+                  </button>
+                  <button class="create">
+                    <h3>English</h3>
+                  </button>
+                  <button class="create">
+                    <h3>Geography</h3>
+                  </button>
+                  <button class="create">
+                    <h3>Other...</h3>
+                  </button>
+            </div>
+          </article>
+          <button><h3>Create</h3></button>
+        </section>
+        </div>
+      </div>
+
+      <div class="modal-bg-staveleg">
+        <div class="modal-staveleg">
+          <span class="close-stav">x</span>
+          <section>
+            <div class="title">
+              <h2>Staveleg</h2>
+            </div>
+            <div class="lessons-container">
+              <img src="assets/images/kedu-lesson-8.jpg" id="staveleg-img">
+              <div class="lesson-details">
+                <h3 id="lesson-details-title">Lesson details:</h3>
+                  <img src="assets/images/thumbs-up-blue.png" id="thumbs-up-blue" alt="likes">
+                  <img src="assets/images/eye-icon-blue.png" id="eye-icon-blue" alt="views">
+                  <img src="assets/images/comment-icon-blue.png" id="comment-icon-blue" alt="comments">
+                  <img src="assets/images/kim-olesen.jpg" id="kim-img" alt=profile-picture>
+                  <table>
+                    <tr>
+                      <th>Made by:</th>
+                      <td>Kim Olesen</td>
+                    </tr>
+                    <tr>
+                      <th>Subject:</th>
+                      <td>Danish</td>
+                    </tr>
+                    <tr>
+                      <th>Class:</th>
+                      <td>0-5 grade</td>
+                    </tr>
+                  </table>
+                    </button>
+                    <div class="lessons-container">
+                    <button class="create">
+                       <h3>Like</h3>
+                    </button>
+                    <button class="create">
+                      <h3>Add comment</h3>
+                    </button>
+                  </div>
+                  <button class="create">
+                    <h3>Add lesson to favourites +</h3>
+                  </div>
+                </div>
+            <div class="stav-dropdown">
+              <div onclick="stavFunction()" class="dropbtn-title-overview-stav">
+                <h4>1. Introduction</h4>
+              </div>
+                <div id="myStavDropdown" class="stav-dropdown-content">
+                  <p>Lorem ipsum dolor sit amet, bibendum amet sagittis, porttitor eu, non praesent turpis consectetuer mollis maecenas tincidunt, tempus nulla porttitor dictum, nunc aliquet ipsa velit scelerisque.</p>
+                </div>
+            </div>
+            <div class="dropbtn-title-overview-stav">
+              <h4>2. Materials</h4>
+            </div>
+            <div class="dropbtn-title-overview-stav">
+              <h4>3. How it works</h4>
+            </div>
+            <div class="comment-section">
+              <div class="title">
+                <h2>Comments</h2>
+              </div>
+              <ul></ul>
+              <article class="subject">
+                <p>No comments yet...Be the first!</p>
+                <div id="comment" class="subject">
+                  <input type="text" id="comment-felt">
+                </div>
+              </article>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <div class="modal-bg-chat">
+        <div class="modal-chat">
+          <span class="close-chat">x</span>
+          <section>
+            <div class="title">
+              <h2>Chat</h2>
+            </div>
+            <div class="subject">
+              <div class="profile-pic">
+              </div>
+              <h4>Support</h4>
+            </div>
+            <div class="subject">
+              <h4>Hello, How may I help you?</h4>
+            </div>
+            <article>
+              <p>You:</p>
+              <input type="text" placeholder="Your question">
+              <button><h3>Send</h3></button>
+            </article>
+        </div>
+      </div>
 
       <footer>
         <div id="year">
