@@ -159,7 +159,7 @@ article {
 }
 
 article > button {
-  height: 20px;
+  height: 40px;
   width: 70px;
   display: flex;
   flex-direction: row;
