@@ -110,7 +110,7 @@ nav {
     z-index: 1;
 }
 
-#profile-pic:hover .dropdown-content {
+.profile-pic:hover .dropdown-content {
     display: flex;
     flex-direction: column;
 }
