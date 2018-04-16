@@ -230,6 +230,11 @@ button:hover {
 
 }
 
+.infooverskrift {
+  margin: auto -5%;
+  font-weight: 300;
+}
+
 .dropdown-content1 a {
     color: black;
     padding: 12px 16px;
